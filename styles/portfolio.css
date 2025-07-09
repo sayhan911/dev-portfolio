@@ -15,6 +15,9 @@
 .dark-2{
     color: #474747;
 }
+.text-center{
+    text-align: center;
+}
 .btn-primary {
    background-color: #FD6E0A;
    font-weight: bold;
@@ -31,6 +34,7 @@
 
 }
 .section-description{
+    font-weight: normal;
     font-size: 18px;
     color: #757575;
 }
@@ -93,12 +97,16 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /* about styles */
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 }
 .items-about{
     display: flex;
@@ -109,3 +117,132 @@ main{
     font-size: 20px;
 
 }
+
+/* what i do styles */
+.section-title, .section-description{
+    padding: 0px 110px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: normal;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+/* resume styles */
+.resume-section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.experience-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.experience-description{
+    font-size: 16px;
+    font-weight: normal;
+    color: #757575;
+}
+hr{
+    margin: 30px 0px;
+    border: solid 1px #D1D1D1;
+}
+.cv-second{
+    display: block;
+    margin: 50px auto 0 auto;
+}
+/* .resume-d-btn{
+    margin-top: 50px;
+} */
+
+/* footer styles */
+
+ footer{
+    padding: 130px 190px;
+    display: flex;
+    gap: 100px;
+ }
+ .footer-column{
+    width: 50%;
+ }
+ 
+ .footer-section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+ }
+ footer p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #474747;
+ }
+ /* footer div div a{
+    margin-right: 100px;
+ } */
+.footer-column a{
+    margin-right: 20px;
+  }
+form{
+    margin-top: 8px;
+  }
+ footer input[type="text"], footer input[type="email"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 0px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+    font-weight: normal;
+ }
+ footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 20px 20px 60px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+    font-weight: normal;
+ }
